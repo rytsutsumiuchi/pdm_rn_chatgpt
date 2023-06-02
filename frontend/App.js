@@ -15,21 +15,21 @@ export default function App() {
   const [texto, setTexto] = useState('')
   const [ultimoId, setultimoId] = useState(3)
   const [item, setItem] = useState([
-    {
-      id: 1,
-      frase: "Estou muito triste",
-      sentimento: "Negativo"
-    },
-    {
-      id: 2,
-      frase: "Hoje o dia foi bom",
-      sentimento: "Positivo"
-    },
-    {
-      id: 3,
-      frase: "Quarta-feira",
-      sentimento: "Neutro"
-    }
+    // {
+    //   id: 1,
+    //   frase: "Estou muito triste",
+    //   sentimento: "Negativo"
+    // },
+    // {
+    //   id: 2,
+    //   frase: "Hoje o dia foi bom",
+    //   sentimento: "Positivo"
+    // },
+    // {
+    //   id: 3,
+    //   frase: "Quarta-feira",
+    //   sentimento: "Neutro"
+    // }
   ])
 
   const modalIsVisible = () => {
